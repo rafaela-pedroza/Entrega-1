@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1 1 0;
+   
+}
+header p {
+    position: absolute; 
+    bottom: 500px;        
+    left: 5px;                  
+    color: rgb(253, 253, 253);       
+    font-size: 24px;    
+    padding: 30px;    
+    font-family: "Cormorant SC", serif;
+    box-sizing: border-box;
+  } 
+
+.navegavel {
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+    padding: 10px;
+    top: 10px;
+    right: 60px;
+    gap: 10px;
+    box-sizing: border-box;
+}
+.navegavel a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+
+.navegavel a:visited{
+    color: white;
+    text-decoration: underline;
+    box-sizing: border-box;
+}
+
+.conhecacampea{
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    background-color: purple;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.conhecacampea a{
+ color: white;
+ text-decoration: none;
+}
+
+.conhecacampea:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(71, 10, 50, 0.1); 
+}
+.conhecacampea a:visited{
+    text-decoration: underline;
+}
+h3{
+    margin-left: 100px;
+}
+h1{
+    font-size: 50px;
+    font-family: "Water Brush", cursive;
+    text-align: center;
+}
+.lore{
+    font-size: 25px;
+    text-align: center;
+    font-family: "Cormorant SC", serif;
+}
+h2{
+    text-align: center;
+}
+.skin{
+    font-size: 25px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+picture{
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+h2{
+    font-family:"Water Brush", cursive ;
+    font-size: 50px;
+}
+picture:hover img {
+    box-shadow: 0 0 15px rgb(255, 255, 0);
+    border-radius: 50%;
+    transform: scale(1.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  }
+
+.video{
+    background-color: #0b090f;
+    text-align: center;
+}
+div{
+    text-align: center;
+    box-sizing: border-box;
+}
+    
+fieldset{
+    padding: 10px; /* Diminui o espaço interno */
+    margin-bottom: 50px;  /* Diminui a margem externa */
+    margin-top: 50px;
+   margin-left: 10px;
+   margin-right: 10px;
+    
+    align-items: center;
+    right: 40%;
+}
+legend{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+    background-color: #2f2545;
+    padding: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.inputs{
+    outline: none;
+    border-bottom: 1px solid rgb(15, 14, 14);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    width: 100%;
+}
+#submits{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.633), #312844);
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ddd;
+    cursor: pointer;
+    width: 100%;
+ }
+
+
+label{
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+footer {
+    background-color: #312844;
+    padding: 50px;
+    color: white;
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+   
